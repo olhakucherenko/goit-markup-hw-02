@@ -1,0 +1,141 @@
+:root{
+    --main-font:font-family: 'Roboto', sans-serif;
+    --secondary-font:font-family: 'Raleway', sans-serif;
+    --main-color: #2196F3;
+}
+body{
+    font-family: var(--main-font);
+}
+/*======= Header ======*/
+.logo{
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+
+}
+.navigation-link{
+font-weight: 500;
+font-size: 14px;
+line-height: 1,333;
+letter-spacing: 0.02em
+}
+.logo:hover,
+.logo:focus,
+.navigation-link:hover,
+.navigation-link:focus,
+.address-email:hover,
+.address-email:focus,
+.adress-phone-number:hover,
+.adress-phone-number:focus{
+ color: var(--main-color);
+}
+
+.button:hover {
+cursor:pointer;
+color: #FFFFFF;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1,875;
+letter-spacing: 0.06em;
+}
+
+.id-btn1:hover,
+.id-btn2:hover,
+.id-btn3:hover,
+.id-btn4:hover,
+.id-btn5:hover{
+cursor:pointer;
+color: #FFFFFF;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,625;
+letter-spacing: 0.03em;
+}
+.addresses{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,333;
+letter-spacing: 0.02em
+}
+.main-header{
+font-weight: 900;
+font-size: 44px;
+line-height: 1,363x;
+color:var(--main-color);
+}
+/*======= Header ======*/
+
+/*======= Body   ======*/
+.second-header{
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1,167;
+letter-spacing: 0.03em;
+color:#212121;;
+}
+.third-header{
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color:#212121;
+}
+.third-header-description{
+font-weight: normal;
+font-size: 16px;
+line-height: 1,875;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.thi-rd-header {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1,142;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.thi-rd-header-description{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1,714;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.our-team{
+font-weight: 500;
+font-size: 16px;
+line-height: 1,188;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.job-position{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1,188;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+/*======= Body   ======*/
+
+
+
