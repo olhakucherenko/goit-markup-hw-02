@@ -13,13 +13,10 @@ font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 31px;
-/* identical to box height */
-
 letter-spacing: 0.03em;
-
 color: #2196F3;
-
 }
+
 .navigation-link{
 font-weight: 500;
 font-size: 14px;
