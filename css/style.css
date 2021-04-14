@@ -24,6 +24,9 @@ body {
 .span {
   color: #212121;
 }
+.span-span {
+  color: #ffffff;
+}
 /*.address{
 padding: 60px;
 height: 30px;
@@ -35,6 +38,7 @@ background-color: #2F303A;
   font-size: 14px;
   line-height: 1, 142;
   letter-spacing: 0.02em;
+  color: var(--secondary-color);
 }
 .logo:hover,
 .logo:focus,
@@ -47,6 +51,9 @@ background-color: #2F303A;
   color: var(--main-color);
 }
 .button {
+  color: #ffffff;
+  background-color: #2196f3;
+  border: none;
   font-family: var(--main-font);
   font-weight: 700;
   font-style: normal;
@@ -56,7 +63,6 @@ background-color: #2F303A;
 }
 .button:hover {
   cursor: pointer;
-  color: #ffff;
 }
 
 /*.id-buttons .id-btn:hover {
@@ -75,17 +81,21 @@ background-color: #2F303A;
   color: var(--main-color);
 }
 
-.addresses {
+.addresses,
+.address-email,
+.adress-phone-number {
   font-size: var(--main-font);
   font-weight: 500;
   font-style: normal;
   font-size: 14px;
   line-height: 1, 142;
   letter-spacing: 0.02em;
+  color: #757575;
 }
 .bottom-addresses,
 .bottom-address-email:hover,
 .bottom-phone-number:hover {
+  color: var(--main-color);
   cursor: pointer;
   font-family: var(--main-font);
   font-style: normal;
@@ -93,12 +103,15 @@ background-color: #2F303A;
   font-size: 14px;
   line-height: 1, 714;
   letter-spacing: 0.03em;
-  color: var(--main-color);
 }
-
+.bottom-addresses,
+.bottom-address-email,
+.bottom-phone-number {
+  color: #ffffff;
+}
 .main-header {
   font-family: var(--main-font);
-  color: var(--main-color);
+  color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1, 363;
