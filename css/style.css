@@ -107,9 +107,11 @@ background-color: #2F303A;
 .bottom-addresses,
 .bottom-address-email,
 .bottom-phone-number {
+  background-color: #2f303a;
   color: #ffffff;
 }
 .main-header {
+  background-color: #2f303a;
   font-family: var(--main-font);
   color: #ffffff;
   font-weight: 900;
